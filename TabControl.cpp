@@ -321,7 +321,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		{
 			case TCN_SELCHANGING:
 			{
-				//MessageBox(hWnd, L"Content", L"Title", MB_OK);  // 先出现 mbox，再变换 tab
+				//MessageBox(hWnd, L"Content", L"Title", MB_OK);  // 脧脠鲁枚脧脰 mbox拢卢脭脵卤盲禄禄 tab
 				// Return FALSE to allow the selection to change.
 				return FALSE;
 			}
